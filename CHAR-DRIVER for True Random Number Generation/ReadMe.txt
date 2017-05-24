@@ -1,4 +1,3 @@
-# assignment-1
 /**************READ ME *****************/
 
 1) type 'make all' command it wil build main.ko
@@ -18,3 +17,4 @@
 Description:-
 		This is the kernel module to generate true random number. It make use of jiffies, to get the number of timer ticks from the time of system booting and it depends on the frequency of system timer.
 	We use IOCTL system call for communication between kernel and the user space.
+
