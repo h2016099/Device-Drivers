@@ -1,6 +1,9 @@
 # assignment-1
-/**************READ ME *****************/
-
+**************READ ME *****************
+Description:-
+		This is the kernel module to generate true random number. It make use of jiffies, to get the number of timer ticks from the time of system booting and it depends on the frequency of system timer.
+We use IOCTL system call for communication between kernel and the user space.
+	
 1) type 'make all' command it wil build main.ko
 
 2) Then insert the module using 'sudo insmod main.ko'
@@ -15,6 +18,4 @@
 
 7) Output will be the random number in the given range.
 
-Description:-
-		This is the kernel module to generate true random number. It make use of jiffies, to get the number of timer ticks from the time of system booting and it depends on the frequency of system timer.
-	We use IOCTL system call for communication between kernel and the user space.
+
