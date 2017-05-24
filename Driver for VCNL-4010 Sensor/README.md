@@ -1,4 +1,4 @@
-# designproject
+# Design Project
 Linux Device Driver for Ambient Light Sensor
 
 Syed Irfan
