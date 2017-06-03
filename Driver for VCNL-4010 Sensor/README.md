@@ -1,5 +1,5 @@
 # Design Project
-Linux Device Driver for Ambient Light Sensor
+## Linux Device Driver for Ambient Light Sensor
 
 A device driver does more or less the same job for a piece of computer hardware, what a taxi driver does for the taxi. That is, manage, control or monitor etc.They are distinct “black boxes” that make a particular piece of hardware respond to a well-defined internal programming interface; they hide completely the details of how the device works. User activities are performed by means of a set of standardized calls that are independent of the specific driver; mapping those calls to device-specific operations that act on real hardware is then the role of the device driver.
 The VCNL4010 is a fully integrated proximity and ambient light sensor. Fully integrated means that the infrared emitter is included in the package. It has 16 bit resolution. It includes a signal processing IC and features standard I2C communication interface. It features an interrupt function.
